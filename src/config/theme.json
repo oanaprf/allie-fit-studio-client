@@ -5,7 +5,8 @@
   "colorTextPrimary": "#1E1E1E",
   "colorTextSecondary": "#585454",
   "Button": {
-    "colorText": "#ffffff"
+    "colorText": "#ffffff",
+    "defaultColor": "#1E1E1E"
   },
   "Drawer": {
     "colorBgElevated": "#970092"

@@ -1,6 +1,5 @@
-import { useCallback, useState } from "react";
-
-
+import { useCallback, } from "react";
+import { useLocation, } from "react-router-dom";
 
 export interface MenuItem {
   key: string;
@@ -14,17 +13,16 @@ interface MenuProps {
   onSelect: (key: string) => void;
 }
 
-function Menu({ items, defaultSelectedKey, mode = 'horizontal', onSelect }: MenuProps) {
+function Menu({ items, mode = 'horizontal', onSelect }: MenuProps) {
   const flexDirection = mode === 'vertical' ? 'flex-col' : 'flex-row';
-  const [selectedKey, setSelectedKeyState] = useState(defaultSelectedKey || null);
+  const { pathname } = useLocation();
 
   const onItemClick = useCallback((key: string) => () => {
-    setSelectedKeyState(key);
     onSelect(key);
   }, [onSelect]);
 
   return (
-    <ul className={`flex ${flexDirection} gap-10 text-xl md:text-lg`}>
+    <ul className={`flex ${flexDirection} gap-10 text-xl md:text-lg items-end`}>
       {items.map((item) => (
         <li
           key={item.key}
@@ -33,7 +31,7 @@ function Menu({ items, defaultSelectedKey, mode = 'horizontal', onSelect }: Menu
         >
           {item.label}
           <div
-            className={`mt-1 h-0.5 bg-white transition-all duration-300 ease-in-out ${selectedKey === item.key ? 'w-10 opacity-100' : 'w-0 opacity-0'}`}
+            className={`mt-1 h-0.5 bg-white transition-all duration-300 ease-in-out ${pathname.substring(1) === item.key ? 'w-10 opacity-100' : 'w-0 opacity-0'}`}
           />
         </li>
       ))}

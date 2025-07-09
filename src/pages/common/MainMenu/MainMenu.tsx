@@ -35,7 +35,9 @@ function MainMenu() {
       />
       <div className="ml-10 mt-10"><Menu items={items} onSelect={onMobileMenuItemClick} mode='vertical' /></div>
     </Drawer>
-    <Button icon={<MenuOutlined />} onClick={onMobileMenuClick} type="text" size='large' />
+    <Button onClick={onMobileMenuClick} type="text" >
+      <MenuOutlined className='text-xl' />
+    </Button>
   </> : <Menu items={items} onSelect={onMenuItemClick} />
 }
 

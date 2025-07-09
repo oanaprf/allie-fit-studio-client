@@ -2,7 +2,12 @@ import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
-export type MainMenuItemKey = 'personal-training' | 'group-classes' | 'transformations' | 'contact';
+export enum MainMenuItemKey {
+  PERSONAL_TRAINING = 'personal-training',
+  GROUP_CLASSES = 'group-classes',
+  TRANSFORMATIONS = 'transformations',
+  CONTACT = 'contact',
+}
 
 export const useMainMenu = () => {
   const { t } = useTranslation();
@@ -19,19 +24,19 @@ export const useMainMenu = () => {
     items: [
       {
         label: t('personalTraining'),
-        key: 'personal-training',
+        key: MainMenuItemKey.PERSONAL_TRAINING,
       },
       {
         label: t('groupClasses'),
-        key: 'group-classes',
+        key: MainMenuItemKey.GROUP_CLASSES,
       },
       {
         label: t('transformations'),
-        key: 'transformations',
+        key: MainMenuItemKey.TRANSFORMATIONS,
       },
       {
         label: t('contact'),
-        key: 'contact',
+        key: MainMenuItemKey.CONTACT,
       },
     ],
     onMenuItemClick,

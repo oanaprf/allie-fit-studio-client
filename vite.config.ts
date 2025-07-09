@@ -5,7 +5,6 @@ import { defineConfig } from 'vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/allie-fit-studio-client',
   resolve: {
     alias: {
       '@': '/src',
