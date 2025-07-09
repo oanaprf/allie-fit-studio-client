@@ -1,0 +1,13 @@
+{
+  "colorPrimary": "#970092",
+  "colorBgContainer": "#FDFAFD",
+  "colorBgElevated": "#F1E8F1",
+  "colorTextPrimary": "#1E1E1E",
+  "colorTextSecondary": "#585454",
+  "Button": {
+    "colorText": "#ffffff"
+  },
+  "Drawer": {
+    "colorBgElevated": "#970092"
+  }
+}
