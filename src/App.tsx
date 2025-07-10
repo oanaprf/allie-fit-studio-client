@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="min-h-screen min-w-screen flex-col bg-gradient-to-r from-[var(--color-primary-dark)] to-[var(--color-primary-light)]">
-      <Router>
+      <Router basename="/allie-fit-studio-client/">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
