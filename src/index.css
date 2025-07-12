@@ -2,19 +2,19 @@
 
 @theme {
   --color-primary: #970092;
-  --color-background: #FDFAFD;
-  --color-elevated: #F1E8F1;
-  --color-text-primary: #1E1E1E;
+  --color-background: #fdfafd;
+  --color-elevated: #f1e8f1;
+  --color-text-primary: #1e1e1e;
   --color-text-secondary: #585454;
   --color-white: #ffffff;
-  --color-white-50: #FFFFFF80;
-  --color-white-75: #FFFFFFBF;
-  --color-primary-dark: #630062;
-  --color-primary-light: #AF02A5;
+  --color-white-50: #ffffff80;
+  --color-white-75: #ffffffbf;
+  --color-primary-dark: #570057;
+  --color-primary-light: #af02a5;
 }
 
 :root {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -29,4 +29,3 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-

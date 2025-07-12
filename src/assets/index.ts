@@ -1,0 +1,17 @@
+export { default as ImgAboutMe1 } from './img-about-me-1.jpg';
+export { default as ImgAboutMe2 } from './img-about-me-2.jpg';
+export { default as ImgGroupClasses } from './img-group-classes.jpg';
+export { default as ImgHome1 } from './img-home-1.jpg';
+export { default as ImgHome2 } from './img-home-2.jpg';
+export { default as ImgNutritionPlans } from './img-nutrition-plans.jpg';
+export { default as ImgPersonalTraining } from './img-personal-training.jpg';
+export { default as ImgTransformations1 } from './img-transformations-1.jpg';
+export { default as ImgTransformations10 } from './img-transformations-10.jpg';
+export { default as ImgTransformations2 } from './img-transformations-2.jpg';
+export { default as ImgTransformations3 } from './img-transformations-3.jpg';
+export { default as ImgTransformations4 } from './img-transformations-4.jpg';
+export { default as ImgTransformations5 } from './img-transformations-5.jpg';
+export { default as ImgTransformations6 } from './img-transformations-6.jpg';
+export { default as ImgTransformations7 } from './img-transformations-7.jpg';
+export { default as ImgTransformations8 } from './img-transformations-8.jpg';
+export { default as ImgTransformations9 } from './img-transformations-9.jpg';

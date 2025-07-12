@@ -1,15 +1,14 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
-import { Header } from './components';
 import './config/i18next/i18next';
 import { Contact, GroupClasses, Home, PersonalTraining, Transformations } from './pages';
+import { NavBar } from './pages/common';
 
 function App() {
-
   return (
     <div className="min-h-screen min-w-screen flex-col bg-gradient-to-r from-[var(--color-primary-dark)] to-[var(--color-primary-light)]">
       <Router basename="/allie-fit-studio-client/">
-        <Header />
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/personal-training" element={<PersonalTraining />} />
@@ -19,7 +18,6 @@ function App() {
         </Routes>
       </Router>
     </div>
-
   );
 }
 

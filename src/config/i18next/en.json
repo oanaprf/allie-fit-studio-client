@@ -6,5 +6,15 @@
   "contact": "Contact",
   "homeTitle": "Transform your lifestyle at AllieFit Studio",
   "homeDescription": "Personal training, customized nutrition plans, and group classes such as Kangoo Jumps, functional training, stretching & mobility.",
-  "homeActionButton": "Schedule a free session"
+  "homeActionButton": "Schedule a free session",
+  "nutritionPlans": "Nutrition Plans",
+  "personalTrainingDescription": "Classic aerobic elements combined with fitness, Functional training, TRX, Tabata, Total body workout",
+  "groupClassesDescription": "Kangoo jumps, Functional training, Stretching & mobility classes",
+  "nutritionPlansDescription": "Personalized nutrition plans based on individual dietary needs and goals",
+  "aboutMe": "About Me",
+  "aboutMeTitle": "A sports enthusiast since childhood, I have always loved being active and close to people.",
+  "aboutMeDescriptionRow1": "I started dancing in childhood, then continued in adolescence with aerobics, tae-bo, step — I tried them all until I became an official and international instructor of Aerobic and Kangoo Jumps.",
+  "aboutMeDescriptionRow2": "Later, I focused on personal training, which I currently practice, combining elements of classic fitness with those of functional training, aerobic, tabata, TRX, and various forms of cardio.",
+  "aboutMeDescriptionRow3": "Also, being a food industry chemical engineer by training, I create personalized nutrition plans based on the different dietary needs we each have, without relying on classic restrictive diets.",
+  "transformationsDescription": "Weight loss transformations are stories of courage and rebirth, where people regain their confidence, joy of living, and self-love."
 }

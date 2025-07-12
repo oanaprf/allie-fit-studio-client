@@ -4,9 +4,12 @@
   "colorBgElevated": "#F1E8F1",
   "colorTextPrimary": "#1E1E1E",
   "colorTextSecondary": "#585454",
+  "fontFamily": "Monteserrat, sans-serif",
   "Button": {
     "colorText": "#ffffff",
-    "defaultColor": "#1E1E1E"
+    "defaultColor": "#1E1E1E",
+    "borderRadius": 15,
+    "borderRadiusLG": 15
   },
   "Drawer": {
     "colorBgElevated": "#970092"

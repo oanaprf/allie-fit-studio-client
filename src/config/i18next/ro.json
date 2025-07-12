@@ -6,5 +6,15 @@
   "contact": "Contact",
   "homeTitle": "Transformă-ți stilul de viață la",
   "homeDescription": "Personal training, planuri de nutriție personalizate, dar și clase de grup precum Kangoo Jumps, functional training, stretching & mobility.",
-  "homeActionButton": "Programează o sesiune gratuită"
+  "homeActionButton": "Programează o sesiune gratuită",
+  "nutritionPlans": "Planuri de nutriție",
+  "personalTrainingDescription": "Elemente de aerobic clasic îmbinate cu fitness, Functional training, TRX, Tabata, Total body workout",
+  "groupClassesDescription": "Clase de Kangoo jumps, Functional training, Stretching & mobility",
+  "nutritionPlansDescription": "Planuri de nutriție personalizată bazate pe necesitățile alimentare individuale și obiective",
+  "aboutMe": "Despre mine",
+  "aboutMeTitle": "Fire sportivă încă de mică, mereu mi-a plăcut să fiu în mișcare și aproape de oameni.",
+  "aboutMeDescriptionRow1": "Am început încă din copilărie cu dansurile, continuând mai apoi în adolescență cu aerobicul, tae-bo, step — le-am cam încercat pe toate, până am devenit instructor oficial și internațional de Aerobic și Kangoo Jumps.",
+  "aboutMeDescriptionRow2": "Ulterior, m-am axat pe partea de antrenamente personale, pe care le practic în prezent, îmbinând elemente din fitnessul clasic cu cele din antrenamentele funcționale, aerobic, tabata, TRX, diferite forme de cardio.",
+  "aboutMeDescriptionRow3": "De asemenea, fiind la bază inginer chimist de industrie alimentară, creez planuri de nutriție personalizate, în funcție de necesitățile alimentare diferite pe care le avem fiecare dintre noi, fără a mă baza pe clasicele diete restrictive.",
+  "transformationsDescription": "Transformările de slăbire sunt povești de curaj și renaștere, în care oamenii își recapătă încrederea, bucuria de a trăi și iubirea de sine."
 }

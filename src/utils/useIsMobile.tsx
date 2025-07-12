@@ -1,5 +1,4 @@
-
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 /**
  * useIsMobile - React hook to determine if the current device is mobile (by screen width)
@@ -7,21 +6,21 @@ import { useEffect, useState } from "react";
  * @returns {boolean} isMobile
  */
 function useIsMobile(breakpoint: number = 768): boolean {
-    const [isMobile, setIsMobile] = useState(
-        typeof window !== "undefined" ? window.innerWidth <= breakpoint : false
-    );
+  const [isMobile, setIsMobile] = useState(
+    typeof window !== 'undefined' ? window.innerWidth <= breakpoint : false
+  );
 
-    useEffect(() => {
-        function handleResize() {
-            setIsMobile(window.innerWidth <= breakpoint);
-        }
-        window.addEventListener("resize", handleResize);
-        // Initial check in case of SSR hydration
-        handleResize();
-        return () => window.removeEventListener("resize", handleResize);
-    }, [breakpoint]);
+  useEffect(() => {
+    function handleResize() {
+      setIsMobile(window.innerWidth <= breakpoint);
+    }
+    window.addEventListener('resize', handleResize);
+    // Initial check in case of SSR hydration
+    handleResize();
+    return () => window.removeEventListener('resize', handleResize);
+  }, [breakpoint]);
 
-    return isMobile;
+  return isMobile;
 }
 
 export default useIsMobile;
