@@ -7,10 +7,10 @@ function Transformations({ className }: { className?: string }) {
 
   return (
     <div className={className}>
-      <h1 className="mt-15 px-10 text-4xl font-bold text-white md:px-[16%]">
+      <h1 className="md: mt-15 px-10 text-4xl font-bold text-white md:px-[16%] md:text-6xl">
         {t('transformations')}
       </h1>
-      <h1 className="text-white-75 mt-8 px-10 text-lg md:mt-15 md:px-[16%] md:text-3xl">
+      <h1 className="text-white-75 mt-8 px-10 text-lg md:mt-15 md:px-[16%] md:text-2xl">
         {t('transformationsDescription')}
       </h1>
       <div className="bg-background mt-15 flex flex-wrap justify-center gap-5 gap-y-5 p-5 md:gap-7 md:p-20">

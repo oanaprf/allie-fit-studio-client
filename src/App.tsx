@@ -2,7 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 import './config/i18next/i18next';
 import { Contact, GroupClasses, Home, PersonalTraining, Transformations } from './pages';
-import { NavBar } from './pages/common';
+import { Footer, NavBar } from './pages/common';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path="/transformations" element={<Transformations />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
