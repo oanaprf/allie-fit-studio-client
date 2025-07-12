@@ -17,10 +17,10 @@ const Header = () => {
     <>
       <h1 className="px-10 text-center text-3xl text-white md:text-6xl">{t('homeTitle')}</h1>
       <Logo className="mt-6 transform-[scale(1.2)] md:mt-15 md:transform-[scale(3)]" />
-      <span className="text-white-75 mt-6 px-5 text-center text-lg md:mt-15 md:w-[55%] md:text-2xl">
+      <div className="text-white-75 mt-15 px-5 text-center text-lg md:mt-30 md:w-[55%] md:text-2xl">
         {t('homeDescription')}
-      </span>
-      <Button type="default" className="mt-6" size="large" onClick={onClick}>
+      </div>
+      <Button type="default" className="mt-8" size="large" onClick={onClick}>
         <span className="font-bold">{t('homeActionButton')}</span>
       </Button>
       <div className="mt-10 flex">

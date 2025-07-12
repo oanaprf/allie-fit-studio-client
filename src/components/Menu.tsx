@@ -25,11 +25,11 @@ function Menu({ items, mode = 'horizontal', onSelect }: MenuProps) {
   );
 
   return (
-    <ul className={`flex ${flexDirection} gap-10 text-xl md:text-lg`}>
+    <ul className={`flex ${flexDirection} gap-10 text-2xl md:text-lg`}>
       {items.map(item => (
         <li
           key={item.key}
-          className="group flex cursor-pointer flex-col text-white"
+          className="group text-white-75 flex cursor-pointer flex-col"
           onClick={onItemClick(item.key)}
         >
           {item.label}
