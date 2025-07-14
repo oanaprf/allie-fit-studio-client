@@ -5,7 +5,7 @@ import ro from './ro.json';
 
 i18next.use(initReactI18next).init({
   lng: 'ro',
-  debug: true,
+  debug: false,
   resources: {
     en: {
       translation: en,

@@ -1,3 +1,9 @@
+import {
+  ImgPersonalTraining1,
+  ImgPersonalTraining2,
+  ImgPersonalTraining3,
+  ImgPersonalTraining4,
+} from '@/assets';
 import { Card, Menu, PriceCard } from '@/components';
 import { useMenu } from '@/utils/useMenu';
 import { useTranslation } from 'react-i18next';
@@ -50,7 +56,7 @@ function PersonalTraining() {
         </div>
       </div>
 
-      <div className="bg-primary flex flex-col px-10 py-15 text-base text-white md:px-[16%] md:text-2xl">
+      <div className="bg-primary flex flex-col px-10 py-20 text-base text-white md:px-[16%] md:text-2xl">
         <div className="flex flex-col gap-10">
           <span className="text-2xl font-bold md:text-4xl">
             {t('personalTrainingNecessityTitle')}
@@ -65,8 +71,30 @@ function PersonalTraining() {
           <li>{t('personalTrainingNecessityDescriptionRow6')}</li>
         </ul>
       </div>
+      <div className="flex">
+        <img
+          src={ImgPersonalTraining1}
+          alt="ImgPersonalTraining1"
+          className="h-100 w-1/4 object-cover"
+        />
+        <img
+          src={ImgPersonalTraining2}
+          alt="ImgPersonalTraining2"
+          className="h-100 w-1/4 object-cover"
+        />
+        <img
+          src={ImgPersonalTraining3}
+          alt="ImgPersonalTraining3"
+          className="h-100 w-1/4 object-cover"
+        />
+        <img
+          src={ImgPersonalTraining4}
+          alt="ImgPersonalTraining4"
+          className="h-100 w-1/4 object-cover"
+        />
+      </div>
 
-      <div className="bg-background text-text-primary px-10 py-10 md:px-[16%]">
+      <div className="bg-background text-text-primary px-10 py-20 md:px-[16%]">
         <div className="text-2xl font-bold md:text-4xl">{t('schedule')}</div>
         <div className="flex items-center justify-between gap-2 md:justify-start md:gap-10">
           <ScheduleCard
