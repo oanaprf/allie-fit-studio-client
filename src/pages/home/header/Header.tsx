@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { ImgHome1, ImgHome2 } from '@/assets';
 import { Logo } from '@/components';
-import { MainMenuItemKey } from '@/pages/common/MainMenu/MainMenu.utils';
+import { MainMenuItemKey } from '@/pages/common/utils';
 
 const Header = () => {
   const { t } = useTranslation();

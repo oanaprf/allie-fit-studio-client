@@ -8,14 +8,16 @@ export interface MenuItem {
 
 interface MenuProps {
   items: MenuItem[];
-  defaultSelectedKey?: string;
   mode?: 'vertical' | 'horizontal';
+  className?: string;
   onSelect: (key: string) => void;
 }
 
-function Menu({ items, mode = 'horizontal', onSelect }: MenuProps) {
+function Menu({ items, mode = 'horizontal', onSelect, className }: MenuProps) {
   const flexDirection = mode === 'vertical' ? 'flex-col' : 'flex-row';
   const { pathname } = useLocation();
+
+  const paths = pathname?.split('/');
 
   const onItemClick = useCallback(
     (key: string) => () => {
@@ -25,16 +27,18 @@ function Menu({ items, mode = 'horizontal', onSelect }: MenuProps) {
   );
 
   return (
-    <ul className={`flex ${flexDirection} gap-10 text-2xl md:text-lg`}>
+    <ul
+      className={`flex ${flexDirection} text-white-75 gap-10 text-2xl font-medium md:text-lg ${className}`}
+    >
       {items.map(item => (
         <li
           key={item.key}
-          className="group text-white-75 flex cursor-pointer flex-col"
+          className="group flex cursor-pointer flex-col"
           onClick={onItemClick(item.key)}
         >
           {item.label}
           <div
-            className={`mt-1 h-0.5 bg-white transition-all duration-300 ease-in-out group-hover:w-10 ${pathname.substring(1) === item.key ? 'w-10' : 'w-0'}`}
+            className={`mt-1 h-0.5 bg-white transition-all duration-300 ease-in-out group-hover:w-10 ${paths.includes(item.key) ? 'w-10' : 'w-0'}`}
           />
         </li>
       ))}

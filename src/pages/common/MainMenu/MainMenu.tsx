@@ -4,12 +4,13 @@ import { useState } from 'react';
 
 import { Menu } from '@/components';
 import { useIsMobile } from '@/utils';
-import { useMainMenu } from './MainMenu.utils';
+import { useMenu } from '@/utils/useMenu';
+import { MainMenuItemKey } from '../utils';
 
 function MainMenu() {
   const isMobile = useIsMobile();
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
-  const { items, onMenuItemClick } = useMainMenu();
+  const { items, onMenuItemClick } = useMenu(Object.values(MainMenuItemKey));
 
   const onMobileMenuClick = () => setIsMobileDrawerOpen(!isMobileDrawerOpen);
 

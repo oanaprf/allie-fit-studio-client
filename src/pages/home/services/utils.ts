@@ -3,17 +3,17 @@ import { ImgGroupClasses, ImgNutritionPlans, ImgPersonalTraining } from '@/asset
 export const serviceData = [
   {
     image: ImgPersonalTraining,
-    title: 'personalTraining',
+    title: 'personal-training',
     description: 'personalTrainingDescription',
   },
   {
     image: ImgGroupClasses,
-    title: 'groupClasses',
+    title: 'group-classes',
     description: 'groupClassesDescription',
   },
   {
     image: ImgNutritionPlans,
-    title: 'nutritionPlans',
+    title: 'nutrition-plans',
     description: 'nutritionPlansDescription',
   },
 ];

@@ -1,7 +1,14 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 import './config/i18next/i18next';
-import { Contact, GroupClasses, Home, PersonalTraining, Transformations } from './pages';
+import {
+  Contact,
+  GroupClasses,
+  Home,
+  NutritionPlans,
+  PersonalTraining,
+  Transformations,
+} from './pages';
 import { Footer, NavBar } from './pages/common';
 
 function App() {
@@ -12,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/personal-training" element={<PersonalTraining />} />
+          <Route path="/nutrition-plans" element={<NutritionPlans />} />
           <Route path="/group-classes" element={<GroupClasses />} />
           <Route path="/transformations" element={<Transformations />} />
           <Route path="/contact" element={<Contact />} />

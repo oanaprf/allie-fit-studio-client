@@ -6,8 +6,8 @@ const Footer = () => {
 
   return (
     <div className="mt-15 flex flex-col items-center gap-5 text-white">
-      <span className="text-xl md:text-4xl">{t('footerText')}</span>
-      <div className="flex gap-10 text-lg md:text-xl">
+      <span className="text-xl md:text-2xl">{t('footerText')}</span>
+      <div className="flex gap-10 text-lg font-semibold md:text-xl">
         <div className="flex gap-2">
           <FacebookFilled className="text-2xl" />
           allie.cretu
