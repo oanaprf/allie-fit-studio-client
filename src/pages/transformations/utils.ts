@@ -1,6 +1,9 @@
 import {
   ImgTransformations1,
   ImgTransformations10,
+  ImgTransformations11,
+  ImgTransformations12,
+  ImgTransformations13,
   ImgTransformations2,
   ImgTransformations3,
   ImgTransformations4,
@@ -61,5 +64,20 @@ export const transformationsData = [
     image: ImgTransformations10,
     title: 'Adina',
     description: '-22kg',
+  },
+  {
+    image: ImgTransformations11,
+    title: '',
+    description: '-9kg',
+  },
+  {
+    image: ImgTransformations12,
+    title: 'Diana',
+    description: '-18kg',
+  },
+  {
+    image: ImgTransformations13,
+    title: '',
+    description: '',
   },
 ];

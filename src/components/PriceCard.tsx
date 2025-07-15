@@ -8,7 +8,7 @@ const Card = ({
   description: string;
 }) => {
   return (
-    <div className="bg-elevated flex w-1/2 flex-col items-center rounded-lg px-8 py-5 text-center md:w-1/4 md:px-15 md:py-10">
+    <div className="bg-elevated flex w-1/2 flex-col items-center rounded-xl px-8 py-5 text-center md:w-1/4 md:px-15 md:py-15">
       <div className="flex items-baseline">
         <span className="text-text-primary text-xl font-bold md:text-4xl">{title}</span>
         {titleSuffix && (

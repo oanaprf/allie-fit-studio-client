@@ -44,5 +44,20 @@
   "personalTrainingNecessityDescriptionRow6": "și nu în ultimul rând, vei câștiga un prieten, o călăuză în drumul pe care îl vei parcurge către un nou stil de viață",
   "schedule": "Program",
   "scheduleOnSiteOnline": "la sală + online",
-  "scheduleOnline": "online"
+  "scheduleOnline": "online",
+  "nutritionPlansTitle": "Pentru a avea rezultate optime în ceea ce privește procesul de slăbire sau de tonifiere",
+  "nutritionPlansDescriptionRow1": "Indiferent care este scopul tău – fie că îți dorești să slăbești, să îți menții greutatea, să câștigi masă musculară sau pur și simplu să adopți un stil de viață mai sănătos – nu este necesar să urmezi diete restrictive sau să calculezi cu strictețe caloriile la fiecare masă. ",
+  "nutritionPlansDescriptionRow2": "Dimpotrivă, o abordare rigidă și excesiv de controlată poate duce la stres inutil, iar acest tip de presiune constantă poate îngreuna semnificativ procesul și chiar crește riscul de eșec sau de abandon al obiectivelor propuse.",
+  "nutritionPlansDescriptionRow3": "Este important să înțelegem că nevoile alimentare ale fiecărei persoane sunt profund individuale. Acestea trebuie stabilite în funcție de o serie de factori personali precum vârsta, sexul, nivelul de activitate fizică, starea de sănătate, obiectivele pe termen lung și preferințele alimentare. Ceea ce funcționează pentru o persoană poate să nu fie deloc potrivit pentru alta, iar adaptarea alimentației la propriul stil de viață este esențială pentru obținerea și menținerea rezultatelor dorite.",
+  "price": "Preț",
+  "monthly": "lunar",
+  "nutritionPlansPriceDescriptionRow1": "Include evaluare, întocmirea planului alimentar și monitorizarea zilnică a progresului",
+  "nutritionPlansPriceDescriptionRow2": "Pachetele de personal training includ gratuit planul alimentar personalizat.",
+  "nutritionalPlansServicesTitle": "Ce presupune un plan alimentar?",
+  "evaluation": "Evaluare",
+  "creatingTheNutritionalPlan": "Întocmirea planului alimentar",
+  "dailyTracking": "Monitorizarea zilnică a progresului",
+  "nutritionalPlansServicesDescriptionRow1": "Pentru a primi un plan alimentar adaptat nevoilor tale:",
+  "nutritionalPlansServicesDescriptionRow2": "Trimite-mi un mesaj pentru a stabili toate detaliile necesare.",
+  "nutritionalPlansServicesDescriptionRow3": "Vom discuta despre stilul tău de viață, obiective și preferințe alimentare."
 }

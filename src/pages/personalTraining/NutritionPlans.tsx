@@ -1,16 +1,77 @@
-import { Menu } from '@/components';
+import { Menu, PriceCard } from '@/components';
 import { useMenu } from '@/utils/useMenu';
+import { useTranslation } from 'react-i18next';
 import { PersonalMenuItemKey } from './utils';
+import { ImgNutritionPlans } from '@/assets';
+import { useIsMobile } from '@/utils';
 
 function NutritionPlans() {
+  const isMobile = useIsMobile();
+  const { t } = useTranslation();
   const { items, onMenuItemClick } = useMenu(Object.values(PersonalMenuItemKey));
 
   return (
     <div>
-      <Menu items={items} onSelect={onMenuItemClick} className="text-4xl text-white md:text-4xl" />
-      <div>
-        <h1>Nutrition Plans</h1>
-        <p>Here you can find various nutrition plans tailored to your needs.</p>
+      <Menu
+        items={items}
+        onSelect={onMenuItemClick}
+        className="my-5 px-10 text-sm md:px-[16%] md:text-4xl"
+      />
+      <div className="bg-background flex flex-col gap-10 px-10 py-10 md:px-[16%]">
+        <span className="text-text-primary text-2xl font-bold md:text-4xl">
+          {t('nutritionPlansTitle')}
+        </span>
+        <div className={`align-center flex md:gap-10 ${isMobile && 'flex-col gap-5'}`}>
+          {isMobile && (
+            <img
+              src={ImgNutritionPlans}
+              alt="ImgPersonalTraining2"
+              className="w-screen rounded-3xl object-cover"
+            />
+          )}
+          <div className="text-text-secondary flex flex-col gap-5 text-base md:text-lg">
+            <div>{t('nutritionPlansDescriptionRow1')}</div>
+            <div>{t('nutritionPlansDescriptionRow2')}</div>
+            <div>{t('nutritionPlansDescriptionRow3')}</div>
+          </div>
+          {!isMobile && (
+            <img
+              src={ImgNutritionPlans}
+              alt="ImgPersonalTraining2"
+              className="h-auto w-100 rounded-3xl object-cover"
+            />
+          )}
+        </div>
+
+        <span className="text-text-primary mt-10 text-2xl font-bold md:text-4xl">
+          {t('nutritionalPlansServicesTitle')}
+        </span>
+        <div className="flex flex-wrap gap-10 text-xl font-semibold">
+          <div className="bg-elevated flex w-screen items-center justify-center rounded-xl px-5 py-15 md:w-[30%]">
+            {t('evaluation')}
+          </div>
+          <div className="bg-elevated flex w-screen items-center rounded-xl px-5 py-15 text-center md:w-[30%]">
+            {t('creatingTheNutritionalPlan')}
+          </div>
+          <div className="bg-elevated flex w-screen items-center rounded-xl px-5 py-15 text-center md:w-[30%]">
+            {t('dailyTracking')}
+          </div>
+        </div>
+        <div className="text-text-secondary flex flex-col gap-2 text-base md:text-lg">
+          {t('nutritionalPlansServicesDescriptionRow1')}
+          <ul className="ml-5 list-disc">
+            <li>{t('nutritionalPlansServicesDescriptionRow2')}</li>
+            <li>{t('nutritionalPlansServicesDescriptionRow3')}</li>
+          </ul>
+        </div>
+
+        <div className="text-text-primary mt-10 text-2xl font-bold md:text-4xl">{t('price')}</div>
+        <div className={`flex flex-col gap-5`}>
+          <PriceCard title="300" titleSuffix={t('currency')} description={t('monthly')} />
+          <div className="text-text-secondary text-base md:text-lg">
+            {t('nutritionPlansPriceDescriptionRow2')}
+          </div>
+        </div>
       </div>
     </div>
   );
