@@ -67,7 +67,7 @@ export const transformationsData = [
   },
   {
     image: ImgTransformations11,
-    title: '',
+    title: 'N/A',
     description: '-9kg',
   },
   {
@@ -77,7 +77,7 @@ export const transformationsData = [
   },
   {
     image: ImgTransformations13,
-    title: '',
+    title: 'N/A',
     description: '',
   },
 ];

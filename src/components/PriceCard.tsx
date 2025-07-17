@@ -2,13 +2,19 @@ const Card = ({
   title,
   titleSuffix,
   description,
+  extraDescription,
+  isCombo,
 }: {
   title: string;
-  titleSuffix?: string;
   description: string;
+  titleSuffix?: string;
+  isCombo?: boolean;
+  extraDescription?: string;
 }) => {
   return (
-    <div className="bg-elevated flex w-1/2 flex-col items-center rounded-xl px-8 py-5 text-center md:w-1/4 md:px-15 md:py-15">
+    <div
+      className={`bg-elevated flex w-[45%] flex-col items-center rounded-xl px-8 py-5 text-center md:px-15 md:py-15 ${isCombo ? 'w-full md:w-[48%] md:pt-25 md:pb-20' : 'md:w-1/4'}`}
+    >
       <div className="flex items-baseline">
         <span className="text-text-primary text-xl font-bold md:text-4xl">{title}</span>
         {titleSuffix && (
@@ -17,7 +23,12 @@ const Card = ({
           </span>
         )}
       </div>
-      <span className="text-text-secondary text-sm md:text-xl">{description}</span>
+      <span className="text-text-secondary text-semibold text-sm md:text-xl">{description}</span>
+      {extraDescription && (
+        <span className="text-text-secondary text-semibold text-sm md:text-xl">
+          {extraDescription}
+        </span>
+      )}
     </div>
   );
 };

@@ -16,7 +16,7 @@ const Transformations = ({ className }: { className?: string }) => {
       <div className="bg-background mt-10 flex flex-wrap justify-center gap-5 gap-y-5 p-5 md:gap-7 md:px-20 md:py-10">
         {transformationsData.map(item => (
           <Transformation
-            key={item.title}
+            key={`${item.title}-${item.description}`}
             image={item.image}
             title={item.title}
             description={item.description}

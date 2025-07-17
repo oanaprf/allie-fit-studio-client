@@ -31,7 +31,8 @@
   "personalTrainingServicesAdditionalInfo": "Antrenamentele personale se desfășoară 1:1, doar eu și persoana respectivă, la orice oră din zi dorită de aceasta, în funcție de orele disponibile.",
   "subscriptions": "Abonamente",
   "currency": "lei",
-  "sessions": "ședințe",
+  "session": "{{sessionCount}} ședință",
+  "sessions": "{{sessionCount}} ședințe",
   "sessionsDescriptionRow1": "Abonamentele au valabilitate 1 lună de zile din momentul începerii, dar se pot prelungi cu maximum 5 zile lucrătoare peste data expirării doar din motive medicale sau concedii (anunțate în prealabil).",
   "sessionsDescriptionRow2": "Orice neprezentare la sală, din motive independente de mine, se poate reprograma doar în cadrul aceleiași luni, în limita locurilor disponibile, fără a afecta plata lunară.",
   "sessionsDescriptionRow3": "Plata se face o dată pe lună, la aceeași dată, în funcție de data de început.",
@@ -66,5 +67,17 @@
   "message": "Mesaj",
   "send": "Trimite",
   "address": "Adresă",
-  "phone": "Telefon"
+  "phone": "Telefon",
+  "kangoo-jumps": "Kangoo Jumps",
+  "functional-training": "Functional Training",
+  "latino-dance": "Latino Dance",
+  "kangooJumpsTitle": "Antrenamente bazate pe recuperare medicală și sportivă, realizate pe ghete special dezvoltate pentru acest lucru.",
+  "kangooJumpsDescriptionRow1": "Ghetele sunt concepute pentru toate vârstele și nivelurile de antrenament, sunt foarte ușor de utilizat, au fost create în scop de reabilitare, dar și distractiv.",
+  "kangooJumpsDescriptionRow2": "Sistemul de protecție patentat nu numai că ajută la creșterea timpului de impact, dar îl și reduce cu până la 80%, ceea ce înseamnă că este singurul tip de antrenament în care coloana vertebrală și articulațiile sunt protejate. ",
+  "kangooJumpsDescriptionRow3": "Ghetele oferă o metodă sigură și eficientă pentru dezvoltarea musculară, îmbunătățirea sistemului cardiovascular, reducerea excesului de grăsime, asigurând fermitate pielii, promovează echilibrul postural ideal, creșterea densității osoase, combaterea stresului prin eliberarea endorfinelor.",
+  "kangooJumpsSubscriptionsDescriptionRow1": "Bonus: discount de 10% pentru posesoarele de ghete personale – valabil doar pentru abonamentele de 8 ședințe",
+  "comboSubscriptions": "Abonamente mixte",
+  "comboSessions": "{{sessionCount}} ședințe {{sessionType}}",
+  "kangooJumpsComboSubscriptionsDescriptionRow1": "Bonus: La prețurile abonamentelor mixte se acordă un discount de 5% posesoarelor de ghete KJ personale (valabil doar pentru abonamentele de 8×4 și 8×8 ședințe).",
+  "tuesdayAndThursday": "Marți și Joi"
 }

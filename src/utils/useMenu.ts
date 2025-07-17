@@ -2,15 +2,15 @@ import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
-export const useMenu = (items: string[]) => {
+export const useMenu = (items: string[], nested?: boolean) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
   const onMenuItemClick = useCallback(
     (key: string) => {
-      navigate(`/${key}`);
+      navigate(`${nested ? '' : '/'}${key}`);
     },
-    [navigate]
+    [navigate, nested]
   );
 
   return {

@@ -22,8 +22,16 @@ const PersonalTrainingDescription = () => {
         {t('subscriptions')}
       </div>
       <div className="mt-8 flex gap-5 md:gap-10">
-        <PriceCard title="850" titleSuffix={t('currency')} description={`8 ${t('sessions')}`} />
-        <PriceCard title="1.250" titleSuffix={t('currency')} description={`12 ${t('sessions')}`} />
+        <PriceCard
+          title="850"
+          titleSuffix={t('currency')}
+          description={t('sessions', { sessionCount: 8 })}
+        />
+        <PriceCard
+          title="1.250"
+          titleSuffix={t('currency')}
+          description={t('sessions', { sessionCount: 12 })}
+        />
       </div>
       <div className="text-text-secondary m-auto flex flex-col gap-5 text-base">
         <span className="mt-8">{t('sessionsDescriptionRow1')}</span>

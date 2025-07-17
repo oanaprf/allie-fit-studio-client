@@ -31,7 +31,8 @@
   "personalTrainingServicesAdditionalInfo": "Personal training sessions are conducted 1:1, just me and the individual, at any time of day desired by them, depending on available hours.",
   "subscriptions": "Subscriptions",
   "currency": "RON",
-  "sessions": "sessions",
+  "session": "{{sessionCount}} session",
+  "sessions": "{{sessionCount}} sessions",
   "sessionsDescriptionRow1": "Subscriptions are valid for 1 month from the start date, but can be extended by a maximum of 5 working days beyond the expiration date only for medical reasons or vacations (announced in advance).",
   "sessionsDescriptionRow2": "Any absence from the gym, for reasons beyond my control, can only be rescheduled within the same month, subject to availability, without affecting the monthly payment.",
   "sessionsDescriptionRow3": "Payment is made once a month, on the same date, depending on the start date.",
@@ -66,5 +67,17 @@
   "message": "Message",
   "send": "Send",
   "address": "Address",
-  "phone": "Phone"
+  "phone": "Phone",
+  "kangoo-jumps": "Kangoo Jumps",
+  "functional-training": "Functional Training",
+  "latino-dance": "Latino Dance",
+  "kangooJumpsTitle": "Workouts based on medical and sports recovery, performed on boots specially developed for this purpose.",
+  "kangooJumpsDescriptionRow1": "The boots are designed for all ages and training levels, are very easy to use, and were created for rehabilitation purposes, but also for fun.",
+  "kangooJumpsDescriptionRow2": "The patented protection system not only helps increase impact time, but also reduces it by up to 80%, which means it is the only type of workout where the spine and joints are protected.",
+  "kangooJumpsDescriptionRow3": "The boots provide a safe and effective method for muscle development, improving the cardiovascular system, reducing excess fat, ensuring skin firmness, promoting ideal postural balance, increasing bone density, and combating stress by releasing endorphins.",
+  "kangooJumpsSubscriptionsDescriptionRow1": "Bonus: 10% discount for owners of personal boots – valid only for 8-session subscriptions",
+  "comboSubscriptions": "Mixed subscriptions",
+  "comboSessions": "{{sessionCount}} sessions {{sessionType}}",
+  "kangooJumpsComboSubscriptionsDescriptionRow1": "Bonus: For mixed subscription prices, a 5% discount is given to owners of personal KJ boots (valid only for 8×4 and 8×8 session subscriptions).",
+  "tuesdayAndThursday": "Tuesday and Thursday"
 }

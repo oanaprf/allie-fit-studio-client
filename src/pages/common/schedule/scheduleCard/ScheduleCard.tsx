@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 interface ScheduleCardProps {
   startHour: string;
   startMinutes: string;
@@ -13,6 +15,7 @@ const ScheduleCard = ({
   endMinutes,
   description,
 }: ScheduleCardProps) => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center gap-2 px-2 py-10 md:p-10">
       <div className="flex items-center gap-2">
@@ -26,7 +29,7 @@ const ScheduleCard = ({
           <span className="text-sm font-bold md:text-base">{endMinutes}</span>
         </span>
       </div>
-      <div className="text-text-secondary text-base font-medium">{description}</div>
+      <div className="text-text-secondary text-base font-medium">{t(description)}</div>
     </div>
   );
 };
