@@ -73,11 +73,16 @@
   "latino-dance": "Latino Dance",
   "kangooJumpsTitle": "Antrenamente bazate pe recuperare medicală și sportivă, realizate pe ghete special dezvoltate pentru acest lucru.",
   "kangooJumpsDescriptionRow1": "Ghetele sunt concepute pentru toate vârstele și nivelurile de antrenament, sunt foarte ușor de utilizat, au fost create în scop de reabilitare, dar și distractiv.",
-  "kangooJumpsDescriptionRow2": "Sistemul de protecție patentat nu numai că ajută la creșterea timpului de impact, dar îl și reduce cu până la 80%, ceea ce înseamnă că este singurul tip de antrenament în care coloana vertebrală și articulațiile sunt protejate. ",
+  "kangooJumpsDescriptionRow2": "Sistemul de protecție patentat nu numai că ajută la creșterea timpului de impact, dar îl și reduce cu până la 80%, ceea ce înseamnă că este singurul tip de antrenament în care coloana vertebrală și articulațiile sunt protejate.",
   "kangooJumpsDescriptionRow3": "Ghetele oferă o metodă sigură și eficientă pentru dezvoltarea musculară, îmbunătățirea sistemului cardiovascular, reducerea excesului de grăsime, asigurând fermitate pielii, promovează echilibrul postural ideal, creșterea densității osoase, combaterea stresului prin eliberarea endorfinelor.",
   "kangooJumpsSubscriptionsDescriptionRow1": "Bonus: discount de 10% pentru posesoarele de ghete personale – valabil doar pentru abonamentele de 8 ședințe",
   "comboSubscriptions": "Abonamente mixte",
   "comboSessions": "{{sessionCount}} ședințe {{sessionType}}",
   "kangooJumpsComboSubscriptionsDescriptionRow1": "Bonus: La prețurile abonamentelor mixte se acordă un discount de 5% posesoarelor de ghete KJ personale (valabil doar pentru abonamentele de 8×4 și 8×8 ședințe).",
-  "tuesdayAndThursday": "Marți și Joi"
+  "tuesdayAndThursday": "Marți și Joi",
+  "functionalTrainingTitle": "Antrenamente funcționale dinamice, axate pe rezistență, forță și mobilitate, adaptate tuturor nivelurilor de pregătire.",
+  "functionalTrainingDescriptionRow1": "În cadrul acestor clase inedite, veți avea parte de o fuziune de elemente de antrenament funcțional, circuite create pe diferite grupe musculare, dar și clase incendiare de tabata.",
+  "functionalTrainingDescriptionRow2": "Create special pentru creșterea performanțelor cardiace, tonifiere și îmbunătățirea aspectului masei musculare.",
+  "functionalTrainingDescriptionRow3": "Tipuri de antrenamente: Tabata, Circuit Training, Functional Training",
+  "mondayAndWednesday": "Luni și Miercuri"
 }

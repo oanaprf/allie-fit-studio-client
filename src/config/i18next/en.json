@@ -79,5 +79,10 @@
   "comboSubscriptions": "Mixed subscriptions",
   "comboSessions": "{{sessionCount}} sessions {{sessionType}}",
   "kangooJumpsComboSubscriptionsDescriptionRow1": "Bonus: For mixed subscription prices, a 5% discount is given to owners of personal KJ boots (valid only for 8×4 and 8×8 session subscriptions).",
-  "tuesdayAndThursday": "Tuesday and Thursday"
+  "tuesdayAndThursday": "Tuesday and Thursday",
+  "functionalTrainingTitle": "Dynamic functional training focused on strength, endurance, and mobility, adapted to all fitness levels.",
+  "functionalTrainingDescriptionRow1": "In these unique classes, you will experience a fusion of functional training elements, circuits created for different muscle groups, as well as fiery tabata classes.",
+  "functionalTrainingDescriptionRow2": "Specifically designed to enhance cardiovascular performance, toning, and improving muscle mass appearance.",
+  "functionalTrainingDescriptionRow3": "Types of workouts: Tabata, Circuit Training, Functional Training",
+  "mondayAndWednesday": "Monday and Wednesday"
 }

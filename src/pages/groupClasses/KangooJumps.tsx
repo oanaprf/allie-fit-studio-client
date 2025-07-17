@@ -17,7 +17,7 @@ const KangooJumps = () => {
         {isMobile && (
           <img
             src={ImgGroupClasses}
-            alt="ImgPersonalTraining2"
+            alt="ImgGroupClasses"
             className="w-screen rounded-3xl object-cover"
           />
         )}
@@ -29,7 +29,7 @@ const KangooJumps = () => {
         {!isMobile && (
           <img
             src={ImgGroupClasses}
-            alt="ImgPersonalTraining2"
+            alt="ImgGroupClasses"
             className="h-auto w-70 rounded-3xl object-cover"
           />
         )}
@@ -45,12 +45,12 @@ const KangooJumps = () => {
           description={t('session', { sessionCount: 1 })}
         />
         <PriceCard
-          title="850"
+          title="220"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 8 })}
         />
         <PriceCard
-          title="1.250"
+          title="380"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 12 })}
         />
