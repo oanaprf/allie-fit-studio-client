@@ -3,6 +3,7 @@ export { default as ImgAboutMe2 } from './img-about-me-2.jpg';
 export { default as ImgGroupClasses } from './img-group-classes.jpg';
 export { default as ImgHome1 } from './img-home-1.jpg';
 export { default as ImgHome2 } from './img-home-2.jpg';
+export { default as ImgLatinoDance } from './img-latino-dance.jpg';
 export { default as ImgNutritionPlans } from './img-nutrition-plans.jpg';
 export { default as ImgPersonalTraining1 } from './img-personal-training-1.jpg';
 export { default as ImgPersonalTraining2 } from './img-personal-training-2.jpg';
