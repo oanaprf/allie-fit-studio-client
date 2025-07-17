@@ -59,5 +59,10 @@
   "dailyTracking": "Monitorizarea zilnică a progresului",
   "nutritionalPlansServicesDescriptionRow1": "Pentru a primi un plan alimentar adaptat nevoilor tale:",
   "nutritionalPlansServicesDescriptionRow2": "Trimite-mi un mesaj pentru a stabili toate detaliile necesare.",
-  "nutritionalPlansServicesDescriptionRow3": "Vom discuta despre stilul tău de viață, obiective și preferințe alimentare."
+  "nutritionalPlansServicesDescriptionRow3": "Vom discuta despre stilul tău de viață, obiective și preferințe alimentare.",
+  "contactDescription": "Contactează-mă pentru a programa o ședință de probă, gratuită.",
+  "name": "Nume",
+  "email": "Email",
+  "message": "Mesaj",
+  "send": "Trimite"
 }

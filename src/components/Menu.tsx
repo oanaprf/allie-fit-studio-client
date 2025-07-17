@@ -13,7 +13,7 @@ interface MenuProps {
   onSelect: (key: string) => void;
 }
 
-function Menu({ items, mode = 'horizontal', onSelect, className }: MenuProps) {
+const Menu = ({ items, mode = 'horizontal', onSelect, className }: MenuProps) => {
   const flexDirection = mode === 'vertical' ? 'flex-col' : 'flex-row';
   const { pathname } = useLocation();
 
@@ -44,6 +44,6 @@ function Menu({ items, mode = 'horizontal', onSelect, className }: MenuProps) {
       ))}
     </ul>
   );
-}
+};
 
 export default Menu;

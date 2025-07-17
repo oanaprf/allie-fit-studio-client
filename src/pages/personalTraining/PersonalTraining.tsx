@@ -5,7 +5,7 @@ import PersonalTrainingNecessity from './personalTrainingNecessity/PersonalTrain
 import Schedule from './schedule/Schedule';
 import { PersonalMenuItemKey } from './utils';
 
-function PersonalTraining() {
+const PersonalTraining = () => {
   const { items, onMenuItemClick } = useMenu(Object.values(PersonalMenuItemKey));
 
   return (
@@ -21,6 +21,6 @@ function PersonalTraining() {
       <Schedule />
     </div>
   );
-}
+};
 
 export default PersonalTraining;

@@ -11,10 +11,10 @@ import {
 } from './pages';
 import { Footer, NavBar } from './pages/common';
 
-function App() {
+const App = () => {
   return (
     <div className="min-h-screen min-w-screen flex-col bg-gradient-to-r from-[var(--color-primary-dark)] to-[var(--color-primary-light)]">
-      <Router basename="/allie-fit-studio-client/">
+      <Router basename={import.meta.env.VITE_BASE_URL}>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -28,6 +28,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;

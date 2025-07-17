@@ -59,5 +59,10 @@
   "dailyTracking": "Daily progress monitoring",
   "nutritionalPlansServicesDescriptionRow1": "To receive a nutrition plan tailored to your needs:",
   "nutritionalPlansServicesDescriptionRow2": "Send me a message to arrange all the necessary details.",
-  "nutritionalPlansServicesDescriptionRow3": "We will discuss your lifestyle, goals, and food preferences."
+  "nutritionalPlansServicesDescriptionRow3": "We will discuss your lifestyle, goals, and food preferences.",
+  "contactDescription": "Contact me to schedule a free trial session.",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "send": "Send"
 }

@@ -1,11 +1,11 @@
+import { ImgNutritionPlans } from '@/assets';
 import { Menu, PriceCard } from '@/components';
+import { useIsMobile } from '@/utils';
 import { useMenu } from '@/utils/useMenu';
 import { useTranslation } from 'react-i18next';
 import { PersonalMenuItemKey } from './utils';
-import { ImgNutritionPlans } from '@/assets';
-import { useIsMobile } from '@/utils';
 
-function NutritionPlans() {
+const NutritionPlans = () => {
   const isMobile = useIsMobile();
   const { t } = useTranslation();
   const { items, onMenuItemClick } = useMenu(Object.values(PersonalMenuItemKey));
@@ -75,6 +75,6 @@ function NutritionPlans() {
       </div>
     </div>
   );
-}
+};
 
 export default NutritionPlans;

@@ -7,7 +7,7 @@ import { useIsMobile } from '@/utils';
 import { useMenu } from '@/utils/useMenu';
 import { MainMenuItemKey } from '../utils';
 
-function MainMenu() {
+const MainMenu = () => {
   const isMobile = useIsMobile();
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
   const { items, onMenuItemClick } = useMenu(Object.values(MainMenuItemKey));
@@ -46,6 +46,6 @@ function MainMenu() {
   ) : (
     <Menu items={items} onSelect={onMenuItemClick} />
   );
-}
+};
 
 export default MainMenu;
