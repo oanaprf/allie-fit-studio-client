@@ -62,7 +62,9 @@
   "nutritionalPlansServicesDescriptionRow3": "Vom discuta despre stilul tău de viață, obiective și preferințe alimentare.",
   "contactDescription": "Contactează-mă pentru a programa o ședință de probă, gratuită.",
   "name": "Nume",
-  "email": "Email",
+  "email": "E-mail",
   "message": "Mesaj",
-  "send": "Trimite"
+  "send": "Trimite",
+  "address": "Adresă",
+  "phone": "Telefon"
 }

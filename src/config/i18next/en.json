@@ -62,7 +62,9 @@
   "nutritionalPlansServicesDescriptionRow3": "We will discuss your lifestyle, goals, and food preferences.",
   "contactDescription": "Contact me to schedule a free trial session.",
   "name": "Name",
-  "email": "Email",
+  "email": "E-mail",
   "message": "Message",
-  "send": "Send"
+  "send": "Send",
+  "address": "Address",
+  "phone": "Phone"
 }
