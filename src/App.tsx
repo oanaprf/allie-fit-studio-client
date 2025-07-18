@@ -1,4 +1,4 @@
-import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Navigate, Route, HashRouter as Router, Routes } from 'react-router-dom';
 
 import './config/i18next/i18next';
 import {
@@ -18,7 +18,7 @@ import { Footer, NavBar } from './pages/common';
 const App = () => {
   return (
     <div className="min-h-screen min-w-screen flex-col bg-gradient-to-r from-[var(--color-primary-dark)] to-[var(--color-primary-light)]">
-      <Router basename={import.meta.env.VITE_BASE_URL}>
+      <Router>
         <NavBar />
         <Routes>
           <Route index path="/" element={<Home />} />
