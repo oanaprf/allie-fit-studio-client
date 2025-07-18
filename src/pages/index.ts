@@ -6,4 +6,5 @@ export { default as LatinoDance } from './groupClasses/LatinoDance';
 export { default as Home } from './home/Home';
 export { default as NutritionPlans } from './personalTraining/NutritionPlans';
 export { default as PersonalTraining } from './personalTraining/PersonalTraining';
+export { default as PersonalTrainingPackage } from './personalTraining/PersonalTrainingPackage';
 export { default as Transformations } from './transformations/Transformations';

@@ -10,6 +10,7 @@ const Services = () => {
           image={service.image}
           title={service.title}
           description={service.description}
+          path={service.path}
         />
       ))}
     </div>

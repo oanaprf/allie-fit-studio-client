@@ -10,6 +10,7 @@ import {
   LatinoDance,
   NutritionPlans,
   PersonalTraining,
+  PersonalTrainingPackage,
   Transformations,
 } from './pages';
 import { Footer, NavBar } from './pages/common';
@@ -21,8 +22,11 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route path="personal-training" element={<PersonalTraining />} />
-          <Route path="nutrition-plans" element={<NutritionPlans />} />
+          <Route path="personal-training" element={<PersonalTrainingPackage />}>
+            <Route index element={<Navigate to="pt" replace />} />
+            <Route path="pt" element={<PersonalTraining />} />
+            <Route path="nutrition-plans" element={<NutritionPlans />} />
+          </Route>
           <Route path="group-classes" element={<GroupClasses />}>
             <Route index element={<Navigate to="kangoo-jumps" replace />} />
             <Route path="kangoo-jumps" element={<KangooJumps />} />

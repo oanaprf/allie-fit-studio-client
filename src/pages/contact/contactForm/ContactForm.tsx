@@ -29,11 +29,11 @@ const ContactForm = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
     } catch (error) {
-      message.error('Failed to send email: ' + error);
+      message.error(t('failedToSendEmail', { error }));
     } finally {
       setIsSubmitting(false);
     }
-    message.success('Email sent successfully!');
+    message.success(t('emailSentSuccessfully'));
     form.resetFields();
   };
 

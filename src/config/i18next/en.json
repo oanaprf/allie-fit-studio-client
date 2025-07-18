@@ -1,6 +1,7 @@
 {
   "home": "Home",
   "personal-training": "Personal Training",
+  "pt": "Personal Training",
   "group-classes": "Group Classes",
   "transformations": "Transformations",
   "contact": "Contact",
@@ -93,5 +94,7 @@
   "latinoDanceDescriptionRow5": "I help you improve your posture, grace, and confidence.",
   "latinoDanceDescriptionRow6": "I help you shine on the dance floor.",
   "latinoDanceDescriptionRow7": "You connect with other extraordinary women.",
-  "monday": "Monday"
+  "monday": "Monday",
+  "emailSentSuccessfully": "E-mail sent successfully!",
+  "failedToSendEmail": "Failed to send email: {{error }}"
 }

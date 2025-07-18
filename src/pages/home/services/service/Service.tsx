@@ -1,19 +1,19 @@
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
-import { camelToDashCase } from '../utils';
 
 interface ServiceProps {
   image: string;
   title: string;
   description: string;
+  path: string;
 }
 
-const Service = ({ image, title, description }: ServiceProps) => {
+const Service = ({ image, title, description, path }: ServiceProps) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
   const onServiceClick = () => {
-    navigate(`/${camelToDashCase(title)}`);
+    navigate(path);
   };
 
   return (

@@ -1,22 +1,14 @@
 import { ImgNutritionPlans } from '@/assets';
-import { Menu, PriceCard } from '@/components';
+import { PriceCard } from '@/components';
 import { useIsMobile } from '@/utils';
-import { useMenu } from '@/utils/useMenu';
 import { useTranslation } from 'react-i18next';
-import { PersonalMenuItemKey } from './utils';
 
 const NutritionPlans = () => {
   const isMobile = useIsMobile();
   const { t } = useTranslation();
-  const { items, onMenuItemClick } = useMenu(Object.values(PersonalMenuItemKey));
 
   return (
     <div>
-      <Menu
-        items={items}
-        onSelect={onMenuItemClick}
-        className="my-5 px-10 text-sm md:px-[16%] md:text-4xl"
-      />
       <div className="bg-background flex flex-col gap-10 px-10 py-10 md:px-[16%]">
         <span className="text-text-primary text-2xl font-bold md:text-4xl">
           {t('nutritionPlansTitle')}

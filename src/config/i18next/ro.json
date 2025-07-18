@@ -1,6 +1,7 @@
 {
   "home": "Acasă",
   "personal-training": "Personal training",
+  "pt": "Personal training",
   "group-classes": "Clase de grup",
   "transformations": "Transformări",
   "contact": "Contact",
@@ -93,5 +94,7 @@
   "latinoDanceDescriptionRow5": "Te ajut să îți îmbunătățești postura, grația și încrederea.",
   "latinoDanceDescriptionRow6": "Te ajut să strălucești pe ringul de dans.",
   "latinoDanceDescriptionRow7": "Te conectezi cu alte femei extraordinare.",
-  "monday": "Luni"
+  "monday": "Luni",
+  "emailSentSuccessfully": "E-mail trimis cu succes!",
+  "failedToSendEmail": "Nu s-a putut trimite emailul: {{error }}"
 }
