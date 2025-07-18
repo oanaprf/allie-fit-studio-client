@@ -42,10 +42,10 @@ const NutritionPlans = () => {
           <div className="bg-elevated flex w-screen items-center justify-center rounded-xl px-5 py-15 md:w-[30%]">
             {t('evaluation')}
           </div>
-          <div className="bg-elevated flex w-screen items-center rounded-xl px-5 py-15 text-center md:w-[30%]">
+          <div className="bg-elevated flex w-screen items-center justify-center rounded-xl px-5 py-15 text-center md:w-[30%]">
             {t('creatingTheNutritionalPlan')}
           </div>
-          <div className="bg-elevated flex w-screen items-center rounded-xl px-5 py-15 text-center md:w-[30%]">
+          <div className="bg-elevated flex w-screen items-center justify-center rounded-xl px-5 py-15 text-center md:w-[30%]">
             {t('dailyTracking')}
           </div>
         </div>
