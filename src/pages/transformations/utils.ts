@@ -4,6 +4,9 @@ import {
   ImgTransformations11,
   ImgTransformations12,
   ImgTransformations13,
+  ImgTransformations14,
+  ImgTransformations15,
+  ImgTransformations16,
   ImgTransformations2,
   ImgTransformations3,
   ImgTransformations4,
@@ -67,7 +70,7 @@ export const transformationsData = [
   },
   {
     image: ImgTransformations11,
-    title: 'N/A',
+    title: 'Maria',
     description: '-9kg',
   },
   {
@@ -77,7 +80,22 @@ export const transformationsData = [
   },
   {
     image: ImgTransformations13,
-    title: 'N/A',
+    title: 'Monica',
     description: '',
+  },
+  {
+    image: ImgTransformations14,
+    title: 'Andreea',
+    description: '-9kg',
+  },
+  {
+    image: ImgTransformations15,
+    title: 'Andreea D',
+    description: '-5kg',
+  },
+  {
+    image: ImgTransformations16,
+    title: 'Camelia',
+    description: '-5kg',
   },
 ];
