@@ -1,7 +1,7 @@
 {
   "name": "allie-fit-studio-client",
   "private": true,
-  "homepage": "https://oanaprf.github.io/allie-fit-studio-client",
+  "homepage": "https://oanaprf.github.io/allie-fit-studio-client/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
