@@ -39,12 +39,12 @@ const FunctionalTraining = () => {
         <PriceCard
           title="210"
           titleSuffix={t('currency')}
-          description={t('sessions', { sessionCount: 8 })}
+          description={t('sessions', { sessionCount: 4 })}
         />
         <PriceCard
           title="350"
           titleSuffix={t('currency')}
-          description={t('sessions', { sessionCount: 12 })}
+          description={t('sessions', { sessionCount: 8 })}
         />
       </div>
 

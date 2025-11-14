@@ -47,12 +47,12 @@ const KangooJumps = () => {
         <PriceCard
           title="220"
           titleSuffix={t('currency')}
-          description={t('sessions', { sessionCount: 8 })}
+          description={t('sessions', { sessionCount: 4 })}
         />
         <PriceCard
           title="380"
           titleSuffix={t('currency')}
-          description={t('sessions', { sessionCount: 12 })}
+          description={t('sessions', { sessionCount: 8 })}
         />
       </div>
       <span className="text-text-secondary">{t('kangooJumpsSubscriptionsDescriptionRow1')}</span>
