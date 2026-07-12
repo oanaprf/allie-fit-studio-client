@@ -53,7 +53,7 @@ const FunctionalTraining = () => {
       </div>
       <div className="flex flex-wrap gap-5 md:gap-10">
         <PriceCard
-          title="390"
+          title="430"
           titleSuffix={t('currency')}
           description={t('comboSessions', { sessionCount: 4, sessionType: 'Kangoo Jumps' })}
           extraDescription={t('comboSessions', {
@@ -63,7 +63,7 @@ const FunctionalTraining = () => {
           isCombo
         />
         <PriceCard
-          title="520"
+          title="560"
           titleSuffix={t('currency')}
           description={t('comboSessions', { sessionCount: 8, sessionType: 'Kangoo Jumps' })}
           extraDescription={t('comboSessions', {
@@ -73,7 +73,7 @@ const FunctionalTraining = () => {
           isCombo
         />
         <PriceCard
-          title="520"
+          title="560"
           titleSuffix={t('currency')}
           description={t('comboSessions', { sessionCount: 4, sessionType: 'Kangoo Jumps' })}
           extraDescription={t('comboSessions', {
@@ -83,7 +83,7 @@ const FunctionalTraining = () => {
           isCombo
         />
         <PriceCard
-          title="630"
+          title="670"
           titleSuffix={t('currency')}
           description={t('comboSessions', { sessionCount: 8, sessionType: 'Kangoo Jumps' })}
           extraDescription={t('comboSessions', {
