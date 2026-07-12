@@ -40,23 +40,22 @@ const KangooJumps = () => {
       </div>
       <div className="flex flex-wrap gap-5 md:gap-10">
         <PriceCard
-          title="70"
+          title="80"
           titleSuffix={t('currency')}
           description={t('session', { sessionCount: 1 })}
         />
         <PriceCard
-          title="240"
+          title="280"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 4 })}
         />
         <PriceCard
-          title="410"
+          title="450"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 8 })}
         />
       </div>
       <span className="text-text-secondary">{t('kangooJumpsSubscriptionsDescriptionRow1')}</span>
-
       <div className="text-text-primary mt-10 text-2xl font-bold md:text-4xl">
         {t('comboSubscriptions')}
       </div>
@@ -105,6 +104,7 @@ const KangooJumps = () => {
       <span className="text-text-secondary">
         {t('kangooJumpsComboSubscriptionsDescriptionRow1')}
       </span>
+      <span className="text-text-secondary">{t('subscriptionsPauseNote')}</span>
 
       <div className="mt-10">
         <Schedule

@@ -23,12 +23,12 @@ const PersonalTrainingDescription = () => {
       </div>
       <div className="mt-8 flex gap-5 md:gap-10">
         <PriceCard
-          title="850"
+          title="900"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 8 })}
         />
         <PriceCard
-          title="1.250"
+          title="1.300"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 12 })}
         />

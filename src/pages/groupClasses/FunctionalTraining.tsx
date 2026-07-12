@@ -32,17 +32,17 @@ const FunctionalTraining = () => {
       </div>
       <div className="flex flex-wrap gap-5 md:gap-10">
         <PriceCard
-          title="70"
+          title="80"
           titleSuffix={t('currency')}
           description={t('session', { sessionCount: 1 })}
         />
         <PriceCard
-          title="230"
+          title="270"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 4 })}
         />
         <PriceCard
-          title="380"
+          title="420"
           titleSuffix={t('currency')}
           description={t('sessions', { sessionCount: 8 })}
         />
@@ -96,6 +96,7 @@ const FunctionalTraining = () => {
       <span className="text-text-secondary">
         {t('kangooJumpsComboSubscriptionsDescriptionRow1')}
       </span>
+      <span className="text-text-secondary">{t('subscriptionsPauseNote')}</span>
 
       <div className="mt-10">
         <Schedule

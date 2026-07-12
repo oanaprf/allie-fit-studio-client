@@ -7,7 +7,6 @@ import {
   GroupClasses,
   Home,
   KangooJumps,
-  LatinoDance,
   NutritionPlans,
   PersonalTraining,
   PersonalTrainingPackage,
@@ -31,7 +30,6 @@ const App = () => {
             <Route index element={<Navigate to="kangoo-jumps" replace />} />
             <Route path="kangoo-jumps" element={<KangooJumps />} />
             <Route path="functional-training" element={<FunctionalTraining />} />
-            <Route path="latino-dance" element={<LatinoDance />} />
           </Route>
           <Route path="transformations" element={<Transformations />} />
           <Route path="contact" element={<Contact />} />

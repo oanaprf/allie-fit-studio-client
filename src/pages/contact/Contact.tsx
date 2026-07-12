@@ -21,7 +21,7 @@ const Contact = () => {
           <ContactCard
             Icon={<EnvironmentOutlined className="text-text-secondary text-5xl" />}
             label={t('address')}
-            value="Șoseaua Pipera Tunari nr. 49A"
+            value="Strada Drumul Negru nr. 1C, Pipera, Voluntari"
           />
           <ContactCard
             Icon={<PhoneOutlined className="text-text-secondary text-5xl" />}
@@ -39,9 +39,9 @@ const Contact = () => {
           className={`mt-5 flex justify-center gap-10 gap-y-5 md:gap-7 ${isMobile ? 'flex-col' : ''}`}
         >
           <iframe
-            src="https://maps.google.com/maps?q=Soseaua%20Pipera%20Tunari%20nr%2049A&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
-            title="Soseaua Pipera Tunari nr 49A"
-            aria-label="Soseaua Pipera Tunari nr 49A"
+            src="https://maps.google.com/maps?q=Strada+Drumul+Negru+nr.+1C,+Pipera,+Voluntari&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
+            title="Strada Drumul Negru nr. 1C, Pipera, Voluntari"
+            aria-label="Strada Drumul Negru nr. 1C, Pipera, Voluntari"
             className="h-96 grow"
           />
           <ContactForm />
